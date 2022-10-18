@@ -9,14 +9,16 @@ See: Zhe Cao, Gines Hidalgo, Tomas Simon, Shih-En Wei, Yaser Sheikh, "[Computer 
 
 #### Computing environment requirements and dependencies:
 Software requirements: Beside the _Openpose_ model, this notebook was successfully built in a Python 3.7.0 virtual environment based on custon iPython kernel, and on the following  packages:<BR>
-    - Tensorflow
-    - Pytorch
-    - OpenCV
+
+- Tensorflow
+- Pytorch
+- OpenCV
 
 #### Hardware compatibility:
-    - CUDA (Nvidia GPU)
-    - OpenCL (AMD GPU)
-    - non-GPU (CPU-only)
+
+- CUDA (Nvidia GPU)
+- OpenCL (AMD GPU)
+- non-GPU (CPU-only)
 
 #### Usage:
 - Command-line demo for built-in functionality.

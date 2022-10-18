@@ -21,7 +21,8 @@ Software requirements: Beside the _Openpose_ model, this notebook was successful
 #### Usage:
 - Command-line demo for built-in functionality.
 - C++ API and Python API for custom functionality. E.g., adding your custom inputs, pre-processing, post-posprocessing, and output steps.
-- To run the notebook code, first consolidate the 3 Models/Coco/*.caffemodel_split0{1,2,3} files, issuing the following cmd in terminal from the same directory level where the files splits are located:
+
+To run the notebook code, first consolidate the 3 Models/Coco/*.caffemodel_split0{1,2,3} files, issuing the following cmd in terminal from the same directory level where the files splits are located:
 
     $ cat *.caffemodel_split0{1,2,3} >| pose_iter_440000.caffemodel
 

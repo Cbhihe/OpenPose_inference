@@ -19,10 +19,12 @@ Software requirements: Beside the _Openpose_ model, this notebook was successful
     - non-GPU (CPU-only)
 
 #### Usage:
-    - Command-line demo for built-in functionality.
-    - C++ API and Python API for custom functionality. E.g., adding your custom inputs, pre-processing, post-posprocessing, and output steps.
-    - To run the notebook code, first consolidate the 3 Models/Coco/*.caffemodel_split0{1,2,3} files, issueing the following cmd in terminali from the same directory level where the files splits are located:
-        $ cat *.caffemodel_split0{1,2,3} >| pose_iter_440000.caffemodel
+- Command-line demo for built-in functionality.
+- C++ API and Python API for custom functionality. E.g., adding your custom inputs, pre-processing, post-posprocessing, and output steps.
+- To run the notebook code, first consolidate the 3 Models/Coco/*.caffemodel_split0{1,2,3} files, issuing the following cmd in terminal from the same directory level where the files splits are located:
+
+    $ cat *.caffemodel_split0{1,2,3} >| pose_iter_440000.caffemodel
+
 For further details, check the [major released features](https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/master/doc/07_major_released_features.md) and [release notes](https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/master/doc/08_release_notes.md) docs.
 
 #### COCO pose estimation model output format:

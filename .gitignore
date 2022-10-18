@@ -1,0 +1,13 @@
+# EXCLUDE ALL
+*
+# EXCEPT
+!/Models/
+!/Models/*
+!/Models/Coco/
+!/Models/Coco/*.prototxt
+!/Models/Coco/*.caffemodel_split[0-9][0-9]
+!/*.md
+!/[0-9][0-9]_*.ipynb
+!/.python-version
+!/.gitignore
+!/*.png

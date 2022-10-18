@@ -2,7 +2,8 @@
 *
 # EXCEPT
 !/Models/
-!/Models/*
+!/Models/frozen_inference_graph.pb
+!/Models/*.ckpt_split[0-9][0-9]
 !/Models/Coco/
 !/Models/Coco/*.prototxt
 !/Models/Coco/*.caffemodel_split[0-9][0-9]

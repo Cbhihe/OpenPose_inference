@@ -24,15 +24,15 @@ Software requirements: Beside the _Openpose_ model, this notebook was successful
 - Command-line demo for built-in functionality.
 - C++ API and Python API for custom functionality. E.g., adding your custom inputs, pre-processing, post-posprocessing, and output steps.
 
-To run the notebook code, first consolidate the 3 Models/Coco/*.caffemodel_split0{1,2,3} files, issuing the following cmd in terminal from the same directory level where the files splits are located:
+To run the notebook code, first consolidate the 5 Models/Coco/*.caffemodel_split0{0,1,2,3,4} files and 2 Models/yoga-asana-classifier.ckpt_split0{0,1} files, issuing the following cmd in terminal from the same directory level where the split file chunks are located:
 
-    $ cat *.caffemodel_split0{1,2,3} >| pose_iter_440000.caffemodel
+    $ cat *.caffemodel_split0{0,1,2,3,4} >| pose_iter_440000.caffemodel
+    $ cat yoga-asana-classifier.ckpt_split0[0,1] >| yoga-asana-classifier.ckpt
 
 For further details, check the [major released features](https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/master/doc/07_major_released_features.md) and [release notes](https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/master/doc/08_release_notes.md) docs.
 
 #### COCO pose estimation model output format:
 ![COCO pose estimation model output format](coco_pose-estimate-model-ouput-format.png)
-
 
 ### Copyright and licensing information
 OpenPose is freely available for free non-commercial use, and may be redistributed under the conditions described in the licensing terms as represented in the accompanyig file **License.md** in this repo.

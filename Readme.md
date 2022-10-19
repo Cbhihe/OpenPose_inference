@@ -2,7 +2,7 @@
 
 #### Description:
 
-This notebook is largely based on the model implementation of _OpenPose_(C) by Kunal Bhashkar (<bhashkar.brand@gmail.com>) available at: https://github.com/kunalBhashkar/OpenPose-Pose-Estimation. _OpenPose_ is the first open-source realtime system for multi-person 2D pose detection, including body, foot, hand, and facial keypoints, by Cao et al. (2018). The CNN neural network architecture ...[to be continued]
+This notebook is largely based on the model implementation of _OpenPose_(C) by Kunal Bhashkar (<bhashkar.brand@gmail.com>) available at: https://github.com/kunalBhashkar/OpenPose-Pose-Estimation. _OpenPose_ is the first open-source realtime system for multi-person 2D pose detection, including body, foot, hand, and facial keypoints, by Cao et al. (2018). The multi-stage CNN neural network architecture first encodes human body part-to-part association, then compute confidence maps. Its input are the feature maps of images obtained from the first 10 layers of VGG-19 fine-tuned.
 
 #### Reference:
 See: Zhe Cao, Gines Hidalgo, Tomas Simon, Shih-En Wei, Yaser Sheikh, "[Computer Vision and Pattern Recognition](https://arxiv.org/abs/1812.08008)," arXiv:1812.08008 [cs.CV] (Dec. 2018).
